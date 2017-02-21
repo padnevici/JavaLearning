@@ -11,4 +11,10 @@ public class Apple extends Fruit {
         System.out.println("The apple grows on trees");
         x++;
     }
+
+    @Override
+    public String getColor()
+    {
+        return super.getColor() + "-----";
+    }
 }

@@ -12,7 +12,7 @@ public abstract class Fruit {
 
     public abstract void howDoesItGrowt();
 
-    public String getColor() {
+    protected String getColor() {
         return color;
     }
 
